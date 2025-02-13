@@ -1,0 +1,328 @@
+@media (max-width: 375px) {
+    @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+
+    body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container {
+        width: 37.5rem;
+    }
+
+    .container .header {
+        background-image: url(./assets/images/mobile/image-header.jpg);
+        background-size: 37.5rem 53.8rem;
+        height: 53.8rem;
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .header .box-menu {
+        width: 32.9rem;
+        height: 31rem;
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 10rem;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .container .header .box-menu::after {
+        content: "";
+        position: absolute;
+        top: -3rem;
+        right: 0;
+        width: 0;
+        height: 0;
+        transform: rotate(180deg);
+        border-style: solid;
+        border-width: 30px 30px 0 0;
+        border-color: #f2f2f2 transparent transparent transparent;
+    }
+
+    .container .header .box-menu .h-about,
+    .container .header .box-menu .h-services,
+    .container .header .box-menu .h-projects,
+    .container .header .box-menu .h-contact {
+        color: #808397;
+        font-family: "Barlow", sans-serif;
+        margin-top: 3.2rem;
+    }
+
+    .container .header .box-menu .h-link {
+        color: #808397;
+        font-family: "Barlow", sans-serif;
+        font-size: 2.1rem;
+    }
+
+    .container .header .box-menu .contact {
+        width: 14rem;
+        height: 5.6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fbd600;
+        border-radius: 6rem;
+        font-size: 2.1rem;
+        font-family: "Fraunces", sans-serif;
+        font-weight: 900;
+        color: #000;
+    }
+
+    .container .header .box-menu .contact {
+    }
+
+    .container .header .navigation {
+        width: 32.7rem;
+        margin-top: 3.2rem;
+    }
+
+    .container .header .navigation .logo {
+        font-size: 2rem;
+    }
+
+    .container .header .navigation .nav-list {
+        display: none;
+    }
+
+    .container .header .navigation .menu {
+        display: block;
+    }
+
+    .container .header .hero {
+        margin-top: 8.8rem;
+    }
+
+    .container .header .hero .h1-hero {
+        font-size: 3.8rem;
+        width: 32.7rem;
+        text-align: center;
+    }
+
+    .container .header .hero .arrow {
+        margin-top: 5.2rem;
+    }
+
+    .container .main {
+        display: block;
+        width: 37.5rem;
+    }
+
+    .container .main .box-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        background-color: #f2f2f2;
+        font-family: "Fraunces", sans-serif;
+        position: relative;
+        height: 43.7rem;
+    }
+
+    .container .main .box-1 .title-box-1 {
+        width: 32.7rem;
+        font-size: 3.1rem;
+        margin-top: 6.4rem;
+        text-align: center;
+    }
+
+    .container .main .box-1 .p-box-1 {
+        width: 32.7rem;
+        margin-top: 2.4rem;
+        text-align: center;
+    }
+
+    .container .main .box-1 .a-box-1 {
+        width: 44.5rem;
+        text-align: left;
+        font-weight: 900;
+        color: #000;
+        font-size: 1.8rem;
+        position: absolute;
+        z-index: 2;
+        bottom: 6.4rem;
+        width: 13.7rem;
+    }
+
+    .container .main .box-1 .line-box-1 {
+        position: absolute;
+        left: 13.2rem;
+        bottom: 6.4rem;
+        width: 13.7rem;
+        height: 8px;
+        background-color: #fad400;
+        border-radius: 2rem;
+    }
+
+    .container .main .box-2 {
+        background-image: url(./assets/images/mobile/image-transform.jpg);
+        background-size: 37.5rem 31.2rem;
+        width: 37.5rem;
+        height: 31.2rem;
+    }
+
+    .container .main .box-3 {
+        background-image: url(./assets/images/mobile/image-stand-out.jpg);
+        background-size: 37.5rem 31.2rem;
+        width: 37.5rem;
+        height: 31.2rem;
+    }
+
+    .container .main .box-4 {
+        height: 43.7rem;
+        justify-content: start;
+    }
+
+    .container .main .box-4 .title-box-4 {
+        width: 32.7rem;
+        font-size: 3.2rem;
+        text-align: center;
+        margin-top: 6.4rem;
+    }
+
+    .container .main .box-4 .p-box-4 {
+        width: 32.7rem;
+        margin-top: 2.4rem;
+        width: 32.7rem;
+        text-align: center;
+    }
+
+    .container .main .box-4 .a-box-4 {
+        bottom: 6.4rem;
+        left: 12.6rem;
+    }
+
+    .container .main .box-4 .line-box-4 {
+        position: absolute;
+        bottom: 6.4rem;
+        left: 12.2rem;
+        width: 13.7rem;
+    }
+
+    .container .main .box-5 {
+        background-image: url(./assets/images/mobile/image-graphic-design.jpg);
+        width: 37.5rem;
+        height: 60rem;
+        background-size: 37.5rem 60rem;
+    }
+
+    .container .main .box-5 .p-box-5 {
+        text-align: center;
+    }
+
+    .container .main .box-6 {
+        background-image: url(./assets/images/mobile/image-photography.jpg);
+        width: 37.5rem;
+        height: 60rem;
+        background-size: 37.5rem 60rem;
+    }
+
+    .container .main .box-6 .p-box-6 {
+        text-align: center;
+    }
+
+    .container .container-testimonials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .container-testimonials .testimonials-title {
+        font-size: 1.7rem;
+        margin-top: 6.4rem;
+    }
+
+    .container .container-testimonials .box-testimonials {
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        column-gap: 0rem;
+        row-gap: 6.4rem;
+        margin-top: 6.4rem;
+    }
+
+    .container .container-testimonials .box-testimonials .testimonial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container
+        .container-testimonials
+        .box-testimonials
+        .testimonial
+        .testimonial-text {
+        width: 32.7rem;
+        font-size: 1.75rem;
+        text-align: center;
+        margin-top: 6rem;
+    }
+
+    .container
+        .container-testimonials
+        .box-testimonials
+        .testimonial
+        .testimonial-name {
+        font-size: 1.7rem;
+        margin-top: 3.2rem;
+    }
+
+    .container
+        .container-testimonials
+        .box-testimonials
+        .testimonial
+        .testimonial-role {
+        font-size: 1.5rem;
+    }
+
+    .container .container-grid {
+        grid-template-columns: repeat(2, 18.8rem);
+        grid-template-rows: repeat(2, 18.8rem);
+        margin-top: 8.5rem;
+    }
+
+    .container .container-grid .grid-box-1 {
+        background-image: url(./assets/images/mobile/image-gallery-milkbottles.jpg);
+        background-size: cover;
+    }
+    .container .container-grid .grid-box-2 {
+        background-image: url(./assets/images/mobile/image-gallery-orange.jpg);
+        background-size: cover;
+    }
+    .container .container-grid .grid-box-3 {
+        background-image: url(./assets/images/mobile/image-gallery-cone.jpg);
+        background-size: cover;
+    }
+    .container .container-grid .grid-box-4 {
+        background-image: url(./assets/images/mobile/image-gallery-sugar-cubes.jpg);
+        background-size: cover;
+    }
+
+    .container .footer .logo {
+        font-size: 2.8rem;
+        margin-top: 6.4rem;
+    }
+
+    .container .footer .footer-nav .footer-item .footer-link {
+        font-size: 2.1rem;
+    }
+
+    .container .footer .social-icons {
+        margin-bottom: 8rem;
+    }
+
+    .container .footer .footer-nav .footer-item .footer-link:hover,
+    .container .footer .social-icons .social-link .social-icon:hover {
+        cursor: pointer;
+        filter: brightness(0) invert(1);
+        transition: ease-in-out 0.7s;
+    }
+}
